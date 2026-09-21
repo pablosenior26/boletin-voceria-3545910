@@ -292,6 +292,48 @@ footer {
     color: var(--blanco);
     text-decoration: none;
 }
+/* SECCIÓN DE VOCERÍA */
+
+.voceria[open] {
+    border-top: 3px solid var(--sena-verde);
+}
+
+.voceria strong {
+    color: var(--sena-verde-oscuro);
+}
+
+
+/* PIE DE PÁGINA */
+
+.footer-contenido {
+    padding: 8px 0;
+}
+
+.footer-ficha {
+    margin-bottom: 18px;
+}
+
+.equipo-voceria {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 18px 0;
+}
+
+.equipo-voceria p {
+    margin: 0;
+    min-width: 180px;
+}
+
+.equipo-voceria strong {
+    color: var(--texto);
+}
+
+.footer-nota {
+    margin-top: 22px;
+    font-size: 0.8rem;
+    color: var(--texto-suave);
+}
 /* CELULARES */
 
 @media (max-width: 600px) {
@@ -324,4 +366,18 @@ footer {
     article {
         padding: 12px 14px;
     }
+article {
+    padding: 12px 14px;
+}
+
+.equipo-voceria {
+    flex-direction: column;
+    gap: 12px;
+}
+
+.equipo-voceria p {
+    min-width: auto;
+}
+
+}
 }
