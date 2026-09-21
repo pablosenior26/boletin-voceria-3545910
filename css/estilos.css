@@ -203,6 +203,51 @@ footer {
     color: var(--amarillo);
     background: #fff0a6;
 }
+/* OPORTUNIDADES DE LA SEMANA */
+
+.oportunidad {
+    border-left-color: var(--sena-verde);
+    background: #f3faef;
+    padding: 18px 20px;
+}
+
+.oportunidad h3 {
+    color: var(--sena-verde-oscuro);
+    font-size: 1.05rem;
+    margin-bottom: 12px;
+}
+
+.oportunidad p {
+    margin: 10px 0;
+}
+
+.oportunidad p:first-of-type {
+    padding: 9px 12px;
+    background: var(--blanco);
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+
+/* BOTÓN DE TRANSFERENCIAS */
+
+.boton-transferencias {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 11px 18px;
+    background: var(--sena-verde);
+    color: var(--blanco);
+    border-radius: 7px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.boton-transferencias:hover {
+    background: var(--sena-verde-oscuro);
+    color: var(--blanco);
+    text-decoration: none;
+}
 /* CELULARES */
 
 @media (max-width: 600px) {
