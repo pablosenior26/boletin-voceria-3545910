@@ -154,7 +154,55 @@ footer {
     font-size: 0.92rem;
 }
 
+/* ESTADOS DE LAS EVIDENCIAS */
 
+.evidencia {
+    position: relative;
+}
+
+.evidencia .estado {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px 9px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.evidencia strong {
+    display: block;
+}
+
+.evidencia.vencida {
+    border-left-color: var(--rojo);
+    background: var(--rojo-fondo);
+}
+
+.evidencia.vencida .estado {
+    color: var(--rojo);
+    background: #ffd9d6;
+}
+
+.evidencia.semana {
+    border-left-color: var(--naranja);
+    background: var(--naranja-fondo);
+}
+
+.evidencia.semana .estado {
+    color: var(--naranja);
+    background: #ffe1bd;
+}
+
+.evidencia.proxima {
+    border-left-color: #c99700;
+    background: var(--amarillo-fondo);
+}
+
+.evidencia.proxima .estado {
+    color: var(--amarillo);
+    background: #fff0a6;
+}
 /* CELULARES */
 
 @media (max-width: 600px) {
